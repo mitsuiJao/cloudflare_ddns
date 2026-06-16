@@ -30,10 +30,13 @@ RECORDIDは一般的にAPIを叩くらしいですが、より簡単な方法が
 
 result[0]["id"]を確認します。これがRECORDIDになります。
 
+![dnsconsole-image](cf-dns.png)
+
 詳しくは写真を参考にしてみてください。赤い線のところを注目して確認してみてください。
 
 
 ### TOKENとKEY
+
 https://dash.cloudflare.com/profile/api-tokens
 
 ↑にアクセスし適切なトークンを生成
