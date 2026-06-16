@@ -46,6 +46,10 @@ https://dash.cloudflare.com/profile/api-tokens
 またKEYはその下にあります
 
 ### さいごに
-`sudo ./install.sh`を実行！
+```bash
+$ sudo ./install.sh
+```
+
+を実行！
 
 serviceとして動きます、あとtimerも登録されるので定期的に実行されます。
