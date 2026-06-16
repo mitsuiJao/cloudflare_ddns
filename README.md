@@ -26,13 +26,14 @@ RECORDIDは一般的にAPIを叩くらしいですが、より簡単な方法が
 3. 対称のドメインのDNS設定を開く
 4. filterにdns_recordsを適用
 5. `dns_records?name={your_domain}の通信があるので中身を確認
-6. result[0]["id"]
+6. ["result"][0]["id"]を確認
 
-result[0]["id"]を確認します。これがRECORDIDになります。
+これがRECORDIDになります。
+
+詳しくは写真を参考にしてみてください。赤い線のところを注目して確認してみてください。
 
 ![dnsconsole-image](cf-dns.png)
 
-詳しくは写真を参考にしてみてください。赤い線のところを注目して確認してみてください。
 
 
 ### TOKENとKEY
